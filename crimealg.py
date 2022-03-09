@@ -16,7 +16,7 @@ def federal():
 	t3=t2*2+5
 	t4=t3*10
 	a=76656 #convictions
-	b=a-(.97*a) #plea_deals
+	b=.97(a) #plea_deals
 	c=a-b #trial_convictions
 	d=  #trials
 	e=  #dismissed
@@ -43,7 +43,7 @@ def  state():
 	t3=t2*2+5
 	t4=t3*10
 	a= #convictions
-	b= a-(.97*a) #plea_deals
+	b=.97(a) #plea_deals
 	c=a-b #trial_convictions
 	d=  #trials
 	e=  #dismissed
