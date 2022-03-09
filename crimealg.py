@@ -2,7 +2,7 @@
 #
 #  Copyright 2022 sixie6e <sixie6e@distherapy>
 #
-#  People really love algorithms. Here's one to show you, mathematically how law enforcement does not create a healthy, moral, or civilized society but a fearful, oppressed, revenue generating one.
+#  People really love algorithms. Here's one to show you mathematically how law enforcement does not create a healthy, moral, or civilized society but a fearful, oppressed, revenue generating one.
 #
 #
 import numpy
@@ -32,6 +32,8 @@ def federal():
 	n=  #property_crime
 	o=  #financial_crime
 	p=t1*40  #sentence
+	q=i*ut*t3*basic_needs*j(range(10017, 152999))  #overhead
+	r=gross-q  #revgen
 
 # 2020
 def  state():
@@ -51,18 +53,23 @@ def  state():
 	i=  #num_facilities
 	j=  #num_guards
 	k=  #num_inmates
-	k=  #num_inmates
 	l=  #population
 	#(m-o) based on the most severe. i.e. a home invasion where the depraved tie up people for their money is all three but is more violent than n or o.
 	m=  #violent_crime
 	n=  #property_crime
 	o=  #financial_crime
 	p=  #sentence
+	q=  #overhead
+	r=  #revgen
 
 # 2020
 def corporate():
-	a= #phone calls
-	b= #video visits
-	c= #commissary
+	a=1400000000 #phone calls in us dollars
+	b=12.95*52*k #video visits
+	c=1700000000 #commissary in us dollars
 	t0=24
-	rev_gen=(a+b+c)*t0
+	d=(a+b+c)*t3  #revgen
+
+for y in range(2024,2040):
+	revgen = z2*r-z1*q
+	print('y = revgen')
