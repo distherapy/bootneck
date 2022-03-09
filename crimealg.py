@@ -25,14 +25,14 @@ def federal():
 	h=  #num_enforcers
 	i=  #num_facilities
 	j=  #num_guards
-	k=  #num_inmates
+	k=  #num_admin
 	l=  #population
 	#(m-o) based on the most severe. i.e. a home invasion where the depraved tie up people for their money is all three but is more violent than n or o.
 	m=  #violent_crime
 	n=  #property_crime
 	o=  #financial_crime
 	p=t1*40  #sentence
-	q=(i*util*t3*basic_needs)*(45779(j))  #overhead
+	q=i*t3*(util+basic_needs +(45779(j)))  #overhead
 	r=gross-q  #revgen
 
 # 2020
@@ -52,22 +52,26 @@ def  state():
 	h=  #num_enforcers
 	i=  #num_facilities
 	j=  #num_guards
-	k=  #num_inmates
+	k=  #num_admin
 	l=  #population
 	#(m-o) based on the most severe. i.e. a home invasion where the depraved tie up people for their money is all three but is more violent than n or o.
 	m=  #violent_crime
 	n=  #property_crime
 	o=  #financial_crime
 	p=t3*15  #sentence
-	q=(i*util*t3*basic_needs)*(47509(j))  #overhead
+	q=i*t3*(util+basic_needs +(47509(j)))  #overhead
 	r=  #revgen
 
 # 2020
 def corporate():
+	t0=1
+	t1=t0*30
+	t2=t1*6
+	t3=t2*2+5
+	t4=t3*10
 	a=1400000000 #phone calls in us dollars
 	b=12.95*52*k #video visits
 	c=1700000000 #commissary in us dollars
-	t0=24
 	d=(a+b+c)*t3  #revgen
 
 for y in range(2024,2040):
