@@ -8,7 +8,8 @@
 import numpy
 import pandas
 import matplotlib
-# 2020 
+#2020 
+#need to convert to dictionaries probably
 def federal():
 	t0=1
 	t1=t0*30
@@ -35,7 +36,7 @@ def federal():
 	q=i*t3*(util+basic_needs +(45779(j)))  #overhead
 	r=gross-q  #revgen
 
-# 2020
+#2020
 def  state():
 	t0=1
 	t1=t0*90
@@ -61,7 +62,7 @@ def  state():
 	p=t3*15  #sentence
 	q=i*t3*(util+basic_needs +(47509(j)))  #overhead
 	r=  #revgen
-# 2020
+#2020
 def  municipal():
 	t0=1
 	t1=t0*90
@@ -83,12 +84,11 @@ def  municipal():
 	#(m-o) based on the most severe. i.e. a home invasion where the depraved tie up people for their money is all three but is more violent than it is n or o.
 	m=  #violent_crime
 	n=  #property_crime
-	o=  #financial_crime
-	p=t3*15  #sentence
+	o=p  #financial_crime
+	p=t3*525  #sentence in us dollars
 	q=i*t3*(util+basic_needs +(47509(j)))  #overhead
 	r=  #revgen
-
-# 2020
+#2020
 def corporate():
 	t0=1
 	t1=t0*30
@@ -98,9 +98,12 @@ def corporate():
 	a=1400000000 #phone calls in us dollars
 	b=12.95*52*k #video visits
 	c=1700000000 #commissary in us dollars
-	d=(a+b+c) #revgen
-
-for y in range(2024,2040):
-	revgen = z2*r-z1*q
-	print(y + ' = ' + revgen')
+	d=a+b+c #revgen
 	
+for y in range(2024,2040):
+	rf=federal.z2*r-federal.z1*q
+	rs=state.z2*r-state.z1*q
+	rm=municipal.z2*r-municipal.z1*q
+	rc=corporate.z2*r-corporate.z1*q
+	revgen=rf+rs+rm+rc
+	print(y + ' = ' + revgen')
