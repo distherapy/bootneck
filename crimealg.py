@@ -2,7 +2,7 @@
 #
 #  Copyright 2022 sixie6e <sixie6e@distherapy>
 #
-#  Law enforcement does not create a healthy, moral, or civilized society but a fearful, oppressed, revenue generating one.
+#  Law enforcement does not create a healthy, moral, safe, or civilized society but a fearful, oppressed, revenue generating one.
 #
 #
 import numpy
