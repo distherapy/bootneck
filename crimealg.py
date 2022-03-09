@@ -72,7 +72,7 @@ def corporate():
 	a=1400000000 #phone calls in us dollars
 	b=12.95*52*k #video visits
 	c=1700000000 #commissary in us dollars
-	d=(a+b+c)*t3  #revgen
+	d=a+b+c  #revgen
 
 for y in range(2024,2040):
 	revgen = z2*r-z1*q
