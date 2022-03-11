@@ -8,7 +8,8 @@
 import numpy
 import pandas
 import matplotlib
-#2020 
+#2020
+#pseudocode
 #need to convert to dictionaries probably
 def federal():
 	t0=1
@@ -27,11 +28,12 @@ def federal():
 	i=122 #num_facilities
 	j=38000  #num_guards
 	k=153000 #num_prisoners
+	kk=  #num_prisoners_annually
 	l=  #population
 	#(m-o) based on the most severe. i.e. a home invasion where the depraved tie up people for their money is all three but is more violent than it is n or o.
-	m=  #violent_crime
-	n=  #property_crime
-	o=  #financial_crime
+	m=1313105   #violent_crime_reported (does not always mean conviction and/or actual violence)
+	n=6452038  #property_crime_reported (does not always mean conviction and/or actual property crime)
+	o= 4606410 #financial_crime_reported (does not always mean conviction and/or actual financial crime)
 	p=t1*40  #sentence
 	q=i*t3*(util+basic_needs +(45779(j)))  #overhead
 	r=gross-q  #revgen
@@ -53,41 +55,39 @@ def  state():
 	h=900000  #num_enforcers from policebluenation.org
 	i=3100  #num_facilities
 	j=400000 #num_guards
-	k=12000000 #num_prisoners
+	k= #num_prisoners
+	kk=12000000  #num_prisoners_annually
 	l=  #population
 	#(m-o) based on the most severe. i.e. a home invasion where the depraved tie up people for their money is all three but is more violent than it is n or o.
-	m=  #violent_crime
-	n=  #property_crime
-	o=  #financial_crime
-	p=t3*15  #sentence
-	q=i*t3*(util+basic_needs +(47509(j)))  #overhead
-	r=  #revgen
+	m=t3*15  #sentence
+	n=i*t3*(util+basic_needs +(47509(j)))  #overhead
+	o=  #revgen
 #2020
+#https://harvardlawreview.org/2021/01/criminal-municipal-courts/
 def  municipal():
 	t0=1
 	t1=t0*90
 	t2=t1*2
 	t3=t2*2+5
 	t4=t3*10
-	a= #convictions
+	a=3500000 #convictions
 	b=.99(a) #plea_deals
 	c=a-b #trial_convictions
 	d=  #trials
-	e=  #dismissed
+	e=100000  #dismissed
 	f=  #not_charged 
 	g=1500  #num_laws
-	h=900000 #num_enforcers
+	h=state.h #num_enforcers
 	i=  #num_facilities
+	ii=7500  #num_courts
 	j=  #num_guards
-	k=  #num_prisoners
+	k=state.k  #num_prisoners
+	kk=state.kk #num_prisoners_annually
 	l=  #population
 	#(m-o) based on the most severe. i.e. a home invasion where the depraved tie up people for their money is all three but is more violent than it is n or o.
-	m=  #violent_crime
-	n=  #property_crime
-	o=p  #financial_crime
-	p=t3*525  #sentence in us dollars
-	q=i*t3*(util+basic_needs +(47509(j)))  #overhead
-	r=  #revgen
+	m=t3*525  #sentence in us dollars
+	n=i*t3*(util+basic_needs +(47509(j)))  #overhead
+	o=2000000000  #revgen in us dollars
 #2020
 def corporate():
 	t0=1
