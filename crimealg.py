@@ -11,6 +11,7 @@ import matplotlib
 #2020
 #pseudocode
 #need to convert to dictionaries probably
+arrests= 7630000
 def federal():
 	t0=1
 	t1=t0*30
@@ -28,7 +29,7 @@ def federal():
 	i=122 #num_facilities
 	j=38000  #num_guards
 	k=153000 #num_prisoners
-	l=  #num_prisoners_annually
+	l=  #num_prisoners_annually(half are immigration related)
 	m=6900000 #probation
 	n=  #probation_as_a_sentence
 	o=  #population
@@ -102,7 +103,7 @@ def corporate():
 	t3=t2*2+5
 	t4=t3*10
 	a=1400000000 #phone calls in us dollars
-	b=12.95*52*k #video visits
+	b=12.95*52*(federal.l+state.l) #video visits
 	c=1700000000 #commissary in us dollars
 	d=a+b+c #revgen
 	
