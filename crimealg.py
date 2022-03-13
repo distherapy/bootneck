@@ -21,9 +21,9 @@ def federal():
 	a=76656 #convictions
 	b=.97(a) #plea_deals
 	c=a-b #trial_convictions
-	d=  #trials
-	e=  #dismissed
-	f=  #not_charged 
+	d=.004(a)  #acquittals
+	e=a+d   #trials
+	f=(cleared by exceptional or not reported)  #not_charged 
 	g=88899  #num_laws/rules/regs
 	h=1400000+35000+4000+10100+1700+30000+20000 (military,fbi,usm,dea,atf,nsa,cia)  #num_enforcers
 	i=122 #num_facilities
