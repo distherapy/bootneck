@@ -23,16 +23,16 @@ def federal():
 	c=a-b #trial_convictions
 	d=.004(a)  #acquittals
 	e=a+d   #trials
-	f=(cleared by exceptional or not reported)  #not_charged 
+	f= #not_charged
 	g=88899  #num_laws/rules/regs
-	h=1400000+35000+4000+10100+1700+30000+20000 (military,fbi,usm,dea,atf,nsa,cia)  #num_enforcers
+	h=1400000+35000+4000+10100+1700+30000+20000+3800(military,fbi,usm,dea,atf,nsa,cia,attorneys)  #num_enforcers
 	i=122 #num_facilities
 	j=38000  #num_guards
 	k=153000 #num_prisoners
-	l=  #num_prisoners_annually(half are immigration related)
+	l=195771  #num_prisoners_annually(half are immigration related)
 	m=6900000 #probation
-	n=  #probation_as_a_sentence
-	o=  #population
+	n=.084(a)  #probation_as_a_sentence
+	o=330000000  #population
 	#(p-r) based on the most severe. i.e. a home invasion where the depraved tie up people for their money is all three but is more violent than it is n or o.
 	p=1313105   #violent_crime_reported (does not always mean conviction and/or actual violence)
 	q=6452038  #property_crime_reported (does not always mean conviction and/or actual property crime)
@@ -65,10 +65,10 @@ def  state():
 	l=12000000  #num_prisoners_annually
 	m=  #probation
 	n=  #probation_as_a_sentence
-	o=  #population
+	o=federal.o  #population
 	p=t3*15  #sentence
 	q=i*t3*(util+basic_needs +(47509(j)))  #overhead
-	r=  #revgen
+	r=gross-q  #revgen
 #2020
 #https://harvardlawreview.org/2021/01/criminal-municipal-courts/
 def  municipal():
@@ -85,13 +85,13 @@ def  municipal():
 	f=  #not_charged
 	g=1500  #num_laws
 	h=state.h #num_enforcers
-	i=  #num_facilities
-	j=  #num_guards
+	i=state.i  #num_facilities
+	j=state.j  #num_guards
 	k=7500  #num_courts
 	l=state.j  #num_guards
 	m=state.k  #num_prisoners
 	n=state.l #num_prisoners_annually
-	o=  #population
+	o=federal.o  #population
 	p=t3*525  #sentence in us dollars
 	q=i*t3*(util+basic_needs +(47509(j)))  #overhead
 	r=2000000000  #revgen in us dollars
