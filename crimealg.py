@@ -23,7 +23,7 @@ def federal():
 	c=a-b #trial_convictions
 	d=.004(a)  #acquittals
 	e=a+d   #trials
-	f= #not_charged
+	f=1770 #num_judges
 	g=88899  #num_laws/rules/regs
 	h=1400000+35000+4000+10100+1700+30000+20000+3800(military,fbi,usm,dea,atf,nsa,cia,attorneys)  #num_enforcers
 	i=122 #num_facilities
@@ -42,7 +42,7 @@ def federal():
 	u=110000  #youth_prisoners
 	v=i*t3*(util+basic_needs +(45779(j)))  #overhead
 	w=gross-v  #revgen
-	x=  #not_reported (the state is using arbitrary data and/or this is a police state: https://bjs.ojp.gov/content/pub/pdf/vnrp0610.pdf)
+	x=2i+3  #not_reported i imaginary not i var(the state is using arbitrary data and/or this is a police state: https://bjs.ojp.gov/content/pub/pdf/vnrp0610.pdf)
 
 #2020
 def  state():
@@ -56,7 +56,7 @@ def  state():
 	c=a-b #trial_convictions
 	d=  #trials
 	e=  #dismissed
-	f=  #not_charged 
+	f=30000 #num_judges
 	g=6000  #num_laws
 	h=900000  #num_enforcers from policebluenation.org
 	i=3100  #num_facilities
@@ -82,7 +82,7 @@ def  municipal():
 	c=a-b #trial_convictions
 	d=  #trials
 	e=100000  #dismissed
-	f=  #not_charged
+	f=state.f  #num_judges
 	g=1500  #num_laws
 	h=state.h #num_enforcers
 	i=state.i  #num_facilities
