@@ -44,7 +44,7 @@ def federal():
 	w=gross-v  #revgen
 	x=.37(e)  #not_charged estimate
 	y=.52(e) #not_reported (https://bjs.ojp.gov/content/pub/pdf/vnrp0610.pdf)
-	z=.50(p+q+r+x+y) #total "crimes" - high  if you go by legislative wording and even higher by morality. also consider the amount of false accusations and exonerations.
+	z=.50(p+q+r+x+y) #total "crimes" - high if you go by legislative wording and even higher by morality. also consider the amount of false accusations and exonerations.
 
 #2020
 def  state():
@@ -107,7 +107,10 @@ def corporate():
 	a=1400000000 #phone calls in us dollars
 	b=12.95*52*(federal.l+state.l) #video visits
 	c=1700000000 #commissary in us dollars
-	d=a+b+c #revgen
+	d=3700000000 #corecivic/cca/privateprisons
+	e= #turner construction
+	f= #unicor, etc
+	d=a+b+c+d+e+f #revgen (t3)
 	
 for y in range(2024,2040):
 	rf=federal.z2*r-federal.z1*q
@@ -115,4 +118,4 @@ for y in range(2024,2040):
 	rm=municipal.z2*r-municipal.z1*q
 	rc=corporate.z2*r-corporate.z1*q
 	revgen=rf+rs+rm+rc
-	print(y + ' = ' + revgen')
+	print(y + ' = ' + revgen)
