@@ -42,7 +42,9 @@ def federal():
 	u=110000  #youth_prisoners
 	v=i*t3*(util+basic_needs +(45779(j)))  #overhead
 	w=gross-v  #revgen
-	x=2i+3  #not_reported i imaginary not i var(the state is using arbitrary data and/or this is a police state: https://bjs.ojp.gov/content/pub/pdf/vnrp0610.pdf)
+	x=.37(e)  #not_charged estimate
+	y=.52(e) #not_reported (https://bjs.ojp.gov/content/pub/pdf/vnrp0610.pdf)
+	z=.50(p+q+r+x+y) #total "crimes" - high  if you go by legislative wording and even higher by morality. also consider the amount of false accusations and exonerations.
 
 #2020
 def  state():
