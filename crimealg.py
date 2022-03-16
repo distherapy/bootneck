@@ -33,10 +33,10 @@ def federal():
 	m=6900000 #probation
 	n=.084(a)  #probation_as_a_sentence
 	o=330000000  #population
-	#(p-r) based on the most severe. i.e. a home invasion where the depraved tie up people for their money is all three but is more violent than it is n or o.
+	#(p-r) based on the most severe. i.e. a home invasion where the depraved tie up people for their money is all three but is more violent than it is q or r.
 	p=1313105   #violent_crime_reported (does not always mean conviction and/or actual violence)
 	q=6452038  #property_crime_reported (does not always mean conviction and/or actual property crime)
-	r= 4606410 #financial_crime_reported (does not always mean conviction and/or actual financial crime)
+	r=4606410 #financial_crime_reported (does not always mean conviction and/or actual financial crime)
 	s=t1*40  #sentence
 	t=650000  #released_annually
 	u=110000  #youth_prisoners
