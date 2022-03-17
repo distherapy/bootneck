@@ -7,7 +7,7 @@
 #
 import numpy
 import pandas
-import matplotlib
+import matplotlib.pyplot as plt
 #2020
 #pseudocode
 #need to convert to dictionaries probably
@@ -105,12 +105,13 @@ def corporate():
 	t3=t2*2+5
 	t4=t3*10
 	a=1400000000 #phone calls in us dollars
-	b=12.95*52*(federal.l+state.l) #video visits
+	b=12.95*52*(federal.l+state.l) #video visits in us dollars
 	c=1700000000 #commissary in us dollars
-	d=3700000000 #corecivic/cca/privateprisons
-	e= #turner construction
-	f= #unicor, etc
-	d=a+b+c+d+e+f #revgen (t3)
+	d=3700000000 #corecivic/cca/privateprisons in us dollars
+	e=278000000 #turner construction in us dollars $14.4 Billion total
+	f=531453000 #unicor fed prison labor
+	g=1600000000 #state prison labor
+	h=a+b+c+d+e+f+g+h #revgen (t3)
 	
 for y in range(2024,2040):
 	rf=federal.z2*r-federal.z1*q
@@ -119,3 +120,10 @@ for y in range(2024,2040):
 	rc=corporate.z2*r-corporate.z1*q
 	revgen=rf+rs+rm+rc
 	print(y + ' = ' + revgen)
+
+spc = np.arange(26)
+fig = plt.figure()
+ax = fig.add_axes([0,0,1,1])
+ax.bar(spc + 0.00, federal.a, width = 0.20)
+ax.bar(spc + 0.20, federal.b,  width = 0.20)
+ax.bar(spc + 0.40, federal.c, width = 0.20)
