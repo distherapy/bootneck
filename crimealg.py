@@ -30,7 +30,7 @@ def federal():
 	j=38000  #num_guards
 	k=153000 #num_prisoners
 	l=195771  #num_prisoners_annually(half are immigration related)
-	m=6900000 #probation
+	m=14137 #probation
 	n=.084(a)  #probation_as_a_sentence
 	o=330000000  #population
 	#(p-r) based on the most severe. i.e. a home invasion where the depraved tie up people for their money is all three but is more violent than it is q or r.
@@ -44,7 +44,7 @@ def federal():
 	w=gross-v  #revgen
 	x=.37(e)  #not_charged estimate
 	y=.52(e) #not_reported (https://bjs.ojp.gov/content/pub/pdf/vnrp0610.pdf)
-	z=.50(p+q+r+x+y) #total "crimes" - high if you go by legislative wording and even higher by morality. also consider the amount of false accusations and exonerations.
+	z=.50(p+q+r+x+y)#total "crimes" - high if you go by legislative wording and even higher by morality. also consider the amount of false accusations and exonerations.
 
 #2020
 def  state():
@@ -53,7 +53,7 @@ def  state():
 	t2=t1*2
 	t3=t2*2+5
 	t4=t3*10
-	a= #convictions
+	a=57500 #convictions
 	b=.95(a) #plea_deals
 	c=a-b #trial_convictions
 	d=  #trials
@@ -64,8 +64,9 @@ def  state():
 	i=3100  #num_facilities
 	j=400000 #num_guards
 	k= #num_prisoners
-	l=12000000  #num_prisoners_annually
-	m=  #probation
+	l=12000000  #total_prisoners_annually
+	ll= 529500 #prisoner_commits_annually
+	m=3316095  #probation
 	n=  #probation_as_a_sentence
 	o=federal.o  #population
 	p=t3*15  #sentence
@@ -82,8 +83,8 @@ def  municipal():
 	a=3500000 #convictions
 	b=.99(a) #plea_deals
 	c=a-b #trial_convictions
-	d=  #trials
-	e=100000  #dismissed
+	d= 100000  #dismissed
+	e=c+.20(d) #trials
 	f=state.f  #num_judges
 	g=1500  #num_laws
 	h=state.h #num_enforcers
