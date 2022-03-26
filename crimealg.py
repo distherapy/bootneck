@@ -11,7 +11,8 @@ import matplotlib.pyplot as plt
 #2020
 #pseudocode
 #need to convert to dictionaries probably
-arrests= 7630000
+arrests0=7630000 #annually
+arrests1=305200000 # in 40 years
 def federal():
 	t0=1
 	t1=t0*30
@@ -45,7 +46,8 @@ def federal():
 	x=.37(e)  #not_charged estimate
 	y=.52(e) #not_reported (https://bjs.ojp.gov/content/pub/pdf/vnrp0610.pdf)
 	z=.50(p+q+r+x+y)#total "crimes" - high if you go by legislative wording and even higher by morality. also consider the amount of false accusations and exonerations.
-
+	appeals=.227(a) #success_rate
+	dna_ex=375 #in 40 years
 #2020
 def  state():
 	t0=1
@@ -60,7 +62,7 @@ def  state():
 	e=.01(arrests)  #dismissed
 	f=30000 #num_judges
 	g=6000  #num_laws
-	h=900000  #num_enforcers from policebluenation.org
+	h=900000  #num_enforcers from policebluenation.org ny state trooper base salary is $104040, maine is $49296 coming from our taxed wages. **need to get salaries of police and sheriffs** We are literally paying to be exploited.
 	i=3100  #num_facilities
 	j=400000 #num_guards
 	k=2185008 #num_prisoners
