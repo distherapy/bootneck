@@ -7,10 +7,10 @@ GAMBLING: The lottery is self explanatory. You can play the numbers but only the
 
 ROBBERY: For years running police have stolen more than burglars have. Another reason why those that worship the boot should be incarcerated with them.
 
-MURDER: Police kill people in the street. Weaponless people. For cigarettes and other minor things.
+MURDER: Police kill people in the street. Weaponless people. For cigarettes and other minor things. #Lyoya #Hammond
 
 TRAFFICKING: The united states is one of the only countries with direct to consumer pharmaceutical advertising. The state doesn’t give a fuck if you do drugs, the state just wants you to do their profiteering drugs. Our lives are corporate laboratories.
 
 WITNESS TAMPERING: Offer someone who is afraid and looking at 10+ years in prison their freedom and some money – some 7 or 8 out of 10 people will throw their dealer under the bus on their drug cases. If there were no incentive, many would never do it, this means that the witnesses are tempted and manipulated into speaking things.
 
-KIDNAPPING: Taking people to a concrete and steel box and only releasing them if they can pay? How in the goddamn fuck is that not kidnapping for ransom? This happens every day because people drove their own vehicles without paying the state first.
+KIDNAPPING: Taking people to a concrete and steel box and only releasing them if they can pay? How is that not kidnapping for ransom? This happens every day because people drove their own vehicles without paying the state first.
