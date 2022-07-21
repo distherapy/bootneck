@@ -28,7 +28,7 @@ def federal():
 	b=.97(a) #plea_deals
 	c=a-b #trial_convictions
 	d=.004(a)  #acquittals
-	e=a+d  #trials
+	e=c+d  #trials
 	f=1770 #num_judges
 	g=88899  #num_laws/rules/regs
 	h=1400000+35000+4000+10100+1700+30000+20000+3800(military,fbi,usm,dea,atf,nsa,cia,attorneys)  #num_enforcers
