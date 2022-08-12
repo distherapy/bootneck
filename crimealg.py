@@ -118,7 +118,7 @@ def corporate():
 	e=278000000  #turner construction in us dollars $14.4 Billion total
 	f=531453000  #unicor fed prison labor
 	g=1600000000  #state prison labor
-	h=a+b+c+d+e+f+g+h  #revgen (t3)
+	h=a+b+c+d+e+f+g  #revgen (t3)
 	
 for y in range(2024,2040):
 	rf=federal.z2*r-federal.z1*q
